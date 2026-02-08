@@ -7,6 +7,12 @@
 Run a **Python Flask application inside a Docker container** with full automation.
 
 ---
+## Create base image 
+yum install docker -y
+systemctl start docker
+docker pull ubuntu
+docker images
+docker run -dt python
 
 ### Step 1: Prepare the Project Folder
 git clone https://github.com/CloudTechDevOps/docker_python_flask-project.git
@@ -69,7 +75,7 @@ Stop the server using **CTRL + C**.
 
 ---
 
-### Step 3: Create Dockerfile (Automation Step)
+### Step 3: Create Dockerfile (Automation Step) (instrution)
 
 The Dockerfile is responsible for:
 
@@ -94,7 +100,7 @@ CMD ["python", "app.py"]
 
 ---
 
-### Step 4: Build Docker Image
+### Step 4: Build Docker Image  (custom image)
 
 ```bash
 cd docker_python_flask-project
