@@ -8,11 +8,14 @@ Run a **Python Flask application inside a Docker container** with full automatio
 
 ---
 ## Create base image 
+```
 yum install docker -y
 systemctl start docker
 docker pull ubuntu
 docker images
 docker run -dt python
+
+```
 
 ### Step 1: Prepare the Project Folder
 git clone https://github.com/mahimapatel93/Docker_python_flask_project.git
