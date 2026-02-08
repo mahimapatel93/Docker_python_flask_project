@@ -15,7 +15,7 @@ docker images
 docker run -dt python
 
 ### Step 1: Prepare the Project Folder
-git clone https://github.com/CloudTechDevOps/docker_python_flask-project.git
+git clone https://github.com/mahimapatel93/Docker_python_flask_project.git
 Correct project structure is **mandatory**:
 
 ```
